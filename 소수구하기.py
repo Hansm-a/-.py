@@ -2,6 +2,7 @@ int(inputcount)
 int(count)
 int(primecount)
 int(i)
+int(j)
 
 inputcount = input('몇번째 소수를 출력할까요? : ')
 
