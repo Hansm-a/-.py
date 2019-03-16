@@ -6,7 +6,7 @@ j=0                                                     #for문에 쓰일 변수
 
 inputcount = int(input('몇번째 소수를 출력할까요? : '))      #입력받은값 inputcount에 저장
 for i in range(1,999999999,1) :                            #main for문 시작
-    for j in range(1,i+1,1) :                              #약수개수 counting for문 시작                                    
+    for j in range(1,i+1,1) :                              #약수개수 counting for문 시작, range(1,i,1)일 경우 1에서 i-1까지만 돌아가므로 range(1,i+1,1)                                 
         if count>2 :                                       #약수개수가 2개를 넘으면 break
             break                                       
         if i%j==0 :                                        #j로 나누어 떨어지는 i값이 있으면 i의 약수개수 1 증가                                                                                       
