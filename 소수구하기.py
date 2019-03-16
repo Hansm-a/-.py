@@ -5,7 +5,7 @@ i=0                                                     #for문과 출력에 쓰
 j=0                                                     #for문에 쓰일 변수    
 
 inputcount = input('몇번째 소수를 출력할까요? : ')        #입력받은값 inputcount에 저장
-for i in range(1,20,1) :                                #main for문 시작
+for i in range(1,9999999999,1) :                        #main for문 시작
     for j in range(1,i,1) :                             #약수개수 counting for문 시작                                    
         if count>2 :                                    #약수개수가 2개를 넘으면 break
             break                                       
