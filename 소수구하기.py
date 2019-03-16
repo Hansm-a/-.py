@@ -1,0 +1,23 @@
+int(inputcount)
+int(count)
+int(primecount)
+int(i)
+
+inputcount = input('몇번째 소수를 출력할까요? : ')
+
+for i in range(1,999999999999)
+    i=i+1
+    for j in range(1,i)
+        j=j+1
+        if count>2 :
+            break
+        if i%j==0 :
+            count+=1
+    if count==2 : 
+        primecount+=1
+    if inputcount == primecount :
+        break
+    count = 0
+
+
+print(inputcount + "번째 소수 : " + i)
